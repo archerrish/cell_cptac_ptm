@@ -606,7 +606,7 @@ def ss_linkage_groups(C, lim=40, verbose=False):
 # ----------------------------------
 import rpy2
 from rpy2.robjects.packages import importr
-from collections import Iterable
+from collections.abc import Iterable
 
 """
 Storey Q-Values - https://github.com/StoreyLab/qvalue
