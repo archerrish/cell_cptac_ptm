@@ -1,0 +1,104 @@
+# .gitignore for CPTAC_PanCan_PTM_2023
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.xlsx
+*.xls
+*.json
+*.rds
+*.RData
+*.sav
+*.pkl
+*.pickle
+*.feather
+*.bam
+*.vcf
+*.fasta
+*.fa
+*.fastq
+*.sam
+*.bed
+*.gtf
+*.gff
+*.gmt
+
+# Logs
+*.log
+*.out
+*.err
+nohup.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Others
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Figures
+figures/
+Figures/
+*.pdf
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.eps
+
+# Ignore Google credentials
+service-account-file.json
+*.key.json
+
+# Ignore shell script outputs
+*.sh~
+*.sh.bak
+
+# Ignore test outputs
+coverage/
+*.cover
+
+# Ignore node modules
+node_modules/
